@@ -1,4 +1,4 @@
-Welcome to my Projects Repository, where I showcase my data analysis and visualization projects using tools like Power BI and Pandas. Each project represents a unique approach to solving real-world data challenges.
+Welcome to my ###Projects Repository, where I showcase my data analysis and visualization projects using tools like Power BI and Pandas. Each project represents a unique approach to solving real-world data challenges.
 
 1. HR Analysis
 This project focuses on creating an interactive Power BI dashboard for analyzing HR metrics. It includes:
