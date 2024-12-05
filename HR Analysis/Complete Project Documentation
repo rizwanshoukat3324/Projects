@@ -1,6 +1,6 @@
 
 Hi, Today we're diving into the data that our Power BI dashboard for HR Analysis, We'll be exploring the types of data tables we have, what each one represents, and the specific columns within each table. Let’s jump in!
-[Data Table Overview]
+
 Our dataset consists of seven main tables, each providing a different perspective on employee performance, satisfaction, and demographics. Here’s a quick overview of each one:
 DimDate Table
 The DimDate table is our date dimension, packed with details. It has columns like DayName, Date,  FiscalYear, and many others that help us drill down to the day, month, quarter, and year levels, which will be super helpful for time-based analysis in our dashboard.
