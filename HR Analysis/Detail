@@ -1,0 +1,68 @@
+
+Hi, Today we're diving into the data that our Power BI dashboard for HR Analysis, We'll be exploring the types of data tables we have, what each one represents, and the specific columns within each table. Let’s jump in!
+[Data Table Overview]
+Our dataset consists of seven main tables, each providing a different perspective on employee performance, satisfaction, and demographics. Here’s a quick overview of each one:
+DimDate Table
+The DimDate table is our date dimension, packed with details. It has columns like DayName, Date,  FiscalYear, and many others that help us drill down to the day, month, quarter, and year levels, which will be super helpful for time-based analysis in our dashboard.
+DimSatisfiedLevel Table
+Next, we have the DimSatisfiedLevel table. This table is simple but essential. It has two columns: SatisfactionID and SatisfactionLevel. 
+DimRatingLevel Table
+This table has two columns: RatingID and RatingLevel. It allows us to standardize and explore different performance ratings across the dataset, providing consistency in how we measure employee performance.
+DimEducationLevel Table
+The DimEducationLevel table contains EducationLevel and EducationLevelID columns.
+DimEmployee Table
+This is one of our most detailed tables and contains employee-specific information, from demographics to job details. We have columns Age, BusinessTravel, Department, and EducationField, along with personal details such as FirstName, LastName, Gender, and Ethnicity. and much more.
+FactPerformanceRating Table
+Our FactPerformanceRating table is the core of our performance data. It include JobSatisfaction, ManagerRating, EnvironmentSatisfaction, WorkLifeBalance and Other interesting columns which will giving us insights into both employee performance and well-being.
+Measures Table
+We’ll be creating this Measures table as we go along. Measures will allow us to calculate key performance indicators, averages, totals, and other metrics based on the dashboard requirements.
+
+That wraps up our data overview! We’ve laid out each table's purpose and the type of insights. In the next part, we’ll set up relationships  to ensure all these tables work together seamlessly. Stick around to see how we turn this raw data into a dynamic dashboard!
+
+Now that we know our data, let’s dive into the data model and relationships that bring this analysis together! In Power BI, setting up the right relationships is key for accurate reporting. Our model uses two types of schemas: the Star Schema and the Snowflake Schema.
+
+Star Schema
+The core of our model follows a Star Schema. This setup is simple yet effective for HR analysis, keeping key tables directly connected to our Fact table. Here, we’ve connected the FactPerformanceRating table with DimEmployee, DimEducationLevel, and DimDate. This schema is highly efficient for our dashboard, allowing for quicker and more organized analysis.
+
+Snowflake Schema
+On the other hand, we use a Snowflake Schema for the DimRatingLevel and DimSatisfiedLevel tables. This type of schema can be more complex but adds flexibility, especially when dealing with hierarchical data like rating and satisfaction levels.
+Measures Table
+The Measures table stands apart with no relationships to other tables. This is intentional—measures in Power BI are designed for calculations across tables, allowing dynamic aggregations without direct links
+
+
+With our relationships and schemas set up, our data model is ready to power the dashboard. 
+Now, let’s walk through the visuals on each page of our HR Analysis dashboard. There are four main pages: Overview, Demographics, Performance Tracker, and Attrition.
+
+
+On this page, we provide a snapshot of key metrics:
+
+Four cards show the total employees, active employees, inactive employees, and the attrition rate.
+A Stacked Column Chart displays hiring trends by year, with total employees on the Y-axis and attrition rates in the legend.
+A Clustered Bar Chart shows active employees by department.
+A Treemap breaks down active employees by department and job role, giving a quick look at departmental composition.
+Demographics Page
+This page gives us a closer look at employee demographics:
+
+Two cards highlight the youngest and oldest employees.
+A Stacked Bar Chart shows employees by age using age bins.
+A 100% Stacked Column Chart uses age bins on the X-axis, with total employees and gender represented.
+A Donut Chart displays marital status among employees.
+Finally, a Line and Stacked Column Chart illustrates employee ethnicity along with average salary.
+Performance Tracker Page
+This page helps track individual employee performance over time:
+
+A slicer filters by employee name.
+Three cards display the employee’s start date, last review date, and next review date.
+Six Line Charts visualize trends over time for job satisfaction, environment satisfaction, relationship satisfaction, work-life balance, self-rating, and manager rating, with each using year on the X-axis.
+Two tables summarize Rating Level and Satisfaction Level for easy reference.
+Attrition Page
+The Attrition page analyzes attrition trends in the organization:
+
+A card displays the overall attrition rate.
+A Stacked Column Chart shows attrition by department and job role.
+A Line Chart tracks attrition rate by hire date.
+A Line and Stacked Column Chart examines attrition by business travel frequency, total employees, and attrition rate.
+A Stacked Bar Chart highlights attrition rate by overtime status.
+Another Stacked Bar Chart shows attrition by years at the company, helping identify trends based on tenure.
+
+And that’s a tour of our HR Analysis dashboard! Each page is crafted to provide insights into different aspects of our workforce, from demographics to performance and attrition trends. 
