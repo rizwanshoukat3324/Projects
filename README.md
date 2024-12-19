@@ -20,6 +20,10 @@ A Python and Pandas-based project that processes U.S. Census data for visualizat
 
 This project simplifies data interpretation for population studies and policy development.
 
+## Job Market Analysis
+This project focuses on creating an interactive Power BI dashboard for analyzing Job Market. It includes:
+
+
 ## Stay Tuned
 Stay tuned for more projects! Feel free to explore, clone, and provide feedback on my work.
 
