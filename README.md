@@ -1,6 +1,6 @@
 # Welcome to My Projects Repository
 
-Welcome to my Projects Repository, where I showcase my data analysis and visualization projects using tools like Power BI and Pandas. Each project represents a unique approach to solving real-world data challenges.
+Welcome to my Projects Repository, where I showcase my data analysis and visualization projects using tools like Power BI Python, Numpy, Matplotlib and Pandas. Each project represents a unique approach to solving real-world data challenges.
 
 ## 1. HR Analysis
 This project focuses on creating an interactive Power BI dashboard for analyzing HR metrics. It includes:
@@ -20,8 +20,10 @@ A Python and Pandas-based project that processes U.S. Census data for visualizat
 
 This project simplifies data interpretation for population studies and policy development.
 
-## Job Market Analysis
+## 3. Job Market Analysis
 This project focuses on creating an interactive Power BI dashboard for analyzing Job Market. It includes:
+
+## 4. Churn Analysis
 
 
 ## Stay Tuned
