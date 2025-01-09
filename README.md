@@ -29,15 +29,15 @@ This project involves an interactive Power BI dashboard analyzing job market tre
 
 The dashboard supports recruitment companies in making data-driven hiring and salary decisions.
 
-
-## 4. Churn Analysis
+## 4. Customer Churn Analysis
 This project focuses on creating an interactive Customer Churn Analysis Dashboard in Power BI for a telecom company. It includes:
 
-Data Preparation: Cleaning and preprocessing datasets, including customer demographics, service usage, and contract details, using Power Query. Missing values were handled to ensure accuracy.
-Data Modeling: Establishing relationships between tables and optimizing the data model. DAX was used to calculate churn rates, customer lifetime value, and retention KPIs.
-Visualizations: Designing an 8-page interactive report featuring customer segmentation, churn trends, and predictive insights with slicers and drill-through capabilities.
+- **Data Preparation**: Cleaned and preprocessed datasets, including customer demographics, service usage, and contract details, using Power Query. Missing values were handled to ensure accuracy.  
+- **Data Modeling**: Established relationships between tables and optimized the data model. DAX was used to calculate churn rates, customer lifetime value, and retention KPIs.  
+- **Visualizations**: Designed an 8-page interactive report featuring customer segmentation, churn trends, and predictive insights with slicers and drill-through capabilities.  
 
 This dashboard enables businesses to make data-driven decisions and improve customer retention strategies.
+
 
 ## Stay Tuned
 Stay tuned for more projects! Feel free to explore, clone, and provide feedback on my work.
