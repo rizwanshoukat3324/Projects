@@ -21,7 +21,14 @@ A Python and Pandas-based project that processes U.S. Census data for visualizat
 This project simplifies data interpretation for population studies and policy development.
 
 ## 3. Job Market Analysis
-This project focuses on creating an interactive Power BI dashboard for analyzing the Job Market. It includes:
+This project involves an interactive Power BI dashboard analyzing job market trends, including:
+
+- **Data Preparation**: Cleaned and filtered job postings for key roles (Data Scientist, Analyst, Engineer).
+- **Data Modeling**: Created relationships and calculated metrics like salaries and skill demand.
+- **Visualizations**: Showcased job trends, salary patterns, and in-demand skills.
+
+The dashboard supports recruitment companies in making data-driven hiring and salary decisions.
+
 
 ## 4. Churn Analysis
 This project focuses on creating an interactive Customer Churn Analysis Dashboard in Power BI for a telecom company. It includes:
